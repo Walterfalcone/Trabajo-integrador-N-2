@@ -2,91 +2,93 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link type="text/css" rel="stylesheet" href="estilo/style.css">
-    <title>Bicimania</title>
-    <link rel="icon" href="img/logos6 icono.ico">
+    <title>Amigos en Pedales</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" href="/img/logos6 icono.ico">
+
 </head>
 <body>
-    <header class="encabezado">
-        <div id="titulo"><h1><span>A</span>migos en pedales</h1></div>
-        <div class="portada">
-            <img src="img/logos1.png" alt="logo">         
+    <header>
+        <div class="logo"> 
+            <img src="./img/logos6.png" alt="Logo">
+            <h2 id="Titulo">Amigos en pedales</h2>
         </div>
-        <div class="enlaces">
+        <div class="enlaces"> 
             <nav>
-                <a href="INICIO.html"s><strong><em>INICIO</em></strong></a>
-                <a href="SERVICIOS.html"><strong><em>SERVICIOS</em></strong></a>
-                <a href="GALERIAS.html"><strong><em>GALERIA</em></strong></a>
-                <a href="CONTACTO.html"><strong><em>CONTACTO</em></strong></a>
-                <a href="MI CUENTA.html"><strong><em>MI CUENTA</em></strong></a>       
-            </nav>
+                <a href="#Quienes somos">Quienes somos</a>
+                <a href="Tienda.html">Tienda</a>
+                <a href="Galeria.html">Galería</a>
+                <a href="Contacto.html">Contacto</a>
+            </nav>        
         </div>
-        
     </header>
-    <section class="contenedor1">
-        <hr>
-        <h2>Te presentamos un espacio para los amantes de la bici</h2>
-        <div class="tipos de actividades">
-            <ol>
-                <div class="mount">
-                    <li>Actividades de montaña</li>
-                    <ul>
-                        <li>Circuitos de montaña</li>
-                        <li>Senderismo</li>
-                        <li>Grupos</li>
-                    </ul>
-                    <img src="img/bicimontaña1.png" alt="mount">
-                </div>
-                <div class="ruta">        
-                    <li>Activades en ruta</li>
-                    <ul>
-                        <li>Circuitos de ruta</li>
-                        <li>Grupos</li>
-                    </ul>
-                    <img src="img/biciruta1.png" alt="mount">
-                </div>    
-                <div class="city">
-                    <li>City Tour</li>
-                        <ul>
-                            <li>Zonas</li>
-                            <li>Grupos</li>
-                        </ul>
-                    <img src="img/gravel1.png" alt="mount">
-                </div>
-                <div class="service">
-                    <li>Consejos utiles para reparar tu bici</li>
-                        <ul>
-                            <li>Regulacion y puesta a punto</li>
-                            <li>Repuestos</li>
-                            <li>Indumentaria</li>
-                        </ul>
-                    <img src="img/bicimontaña1.png" alt="mount">
-                </div>
-            </ol>
-        </div>
-    </section>    
-    <hr>
-    <section class="contenedor2">
-        <footer>
-            <h2><span></span>Contanos tu experiencia</span><p>Completa con tus datos</p></h2>
-            <div class="contacto">
-                <form>
-                    <p><label>Tu nombre</label></p>
-                    <p><input type="text" placeholder="Nombre"></p>
-                    <p><label>Tu Correo</label></p>
-                    <p><input type="email" placeholder="tucorreo@pasion"></p>
-                    <p>Deja un mensaje:<br>
-                    <textarea name="mensaje"></textarea>
-                    <p><button>Enviar</button></p>
-                </form>
-            </div>
-        </footer>
 
+    <section id="banner">
+        <h1 id="titulo1">Bienvenido, este es tu espacio</h1>
+        <h2 id="titulo2">buena gente, amigos, compañeros, <br>aca comienzan tus kms.VAMOS!!!</h2>
+    </section>
+    <hr>    
+    <section id="Quienes-somos">
+        <div class="contenedor">
+            <div class="img-container">
+                <h2 id="titulo3">¿Quienes somos?</h2>
+                <p>Somos un grupo de ciclistas aficionados y apacionados por el deporte recreativo que desde el año 2020, previo pandemia, comenzamos a reunirnos
+                    los dias viernes en la noche en distintos puntos. Las consignas eran simples, elementos de proteccion, bicis en buen estado y ganas de terminar
+                    la semana con muchas ganas y algo distinto.</p>
+                <p>Nunca falto ese tercer tiempo que nos permitio ir conociendonos unos a otros y asi fomentar nuevas salidas para los distintos niveles fisicos a 
+                    los que nos fuimos proponiendo superar.</p>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section id="Enterate-de-todo">
+        <h2 class="titulo4">Todo a tu alcance</h2>
+        <div class="contenedor2"> 
+            <div class="columna1">
+                <h3 class="titulo5">Nuestas salidas</h3>
+                <p>Nuestas salidas estan orientadas a la diversion y recreacion, no tienen ningun fin competitvo y se caracterizan por ser masivas, solidarias.
+                    <br>Nuestros equipos estan compuestos por ciclistas solidarios con la causa sin ningun proposito economico mas que la gratitud de cada una de las salidas.</p>
+                <button class="boton">+ info</button>
+            </div>
+            <div class="columna2">
+                <h3 class="titulo5">Services</h3>
+                <p>Este espacio esta creado para brindar soluciones practicas al manteniento de nuestras bicis, ingresa y conoce los tips a tener en cuenta que te pueden ayudar en cada una de tus salidas.</p>
+                <button class="boton">+ info</button>            
+            </div>
+            <div class="columna3">
+                <h3 class="titulo5">Clasificados</h3>
+                <p>En este espacio te proponemos publicar tus bicis siguiendo un estrico contrato para garantizar la transparencia de cada operacion.</p>
+                <button class="boton">+ info</button>
+            </div>
+        </div>
 
     </section>
-</body>
 <hr>
+    <section id="noticias">
+        <h2 id="titulo6">Noticias</h2>
+        <div class="contenedor3">
+            <div class="img">
+                <img src="/img/noticias.png" alt="Noticias">
+            </div>
+            <div class="lista">
+                <h3 class="titulo-not">Cada semana un nuevo informe sobre lo que a vos te interesa</h3>
+                <ul>
+                    <li>🚴 Ciclismo de montaña</li>
+                    <li>🚴 Ciclismo de Ruta</li>
+                    <li>🚴 Urbano</li>
+                    <li>🚴 Tour</li>
+                    <li>🚴 Lo Nuevo</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+<hr>
+<footer>
+    <div class="pie">
+        <p>&copy; Amigos en pedales 2023</p>
+    </div>
+</footer>
 
+</body>
 </html>

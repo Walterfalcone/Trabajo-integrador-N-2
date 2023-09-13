@@ -2,11 +2,66 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
+    <title>Amigos en Pedales - Contacto</title>
+    <link rel="stylesheet" href="/index2.html">
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-    
+    <header>
+        <div class="logo"> 
+            <img src="./img/logos6.png" alt="Logo">
+            <h2 id="Titulo">Amigos en pedales</h2>
+        </div>
+    </header>
+
+    <div class="Titulo-formulario">
+        <h2 id="Titulo-formulario">Bienvenido, dejanos tu opinion y contacto, asi podras estar en conocimiento
+            de las salidas y distintas propuestas</h2>
+    </div>
+
+    <section id="Formulario">
+        <form>
+            <label for="nombre-y-apellido">Nombre y apellido</label><br>
+            <input type="text" id="nombre-y-apellido" name="nombre-y-apellido"><br><br>
+            
+            <label for="sobre-nombre">Podes escribirme como te apodan</label><br>
+            <input type="text" id="sobre-nombre" name="sobre-nombre"><br><br>
+            
+            <label for="telefono">Cual es tu numero de contacto</label><br>
+            <input type="number" id="telefono" name="telefono"><br><br>
+            
+            <label for="email">Dejanos tu correo</label><br>
+            <input type="email" id="email" name="email"><br><br>
+            
+            <label for="zona-de-procedencia">De donde sos</label><br>
+            <input type="text" id="zona-de-procedencia" name="zona-de-procedencia"><br><br>
+            
+            <label for="tipo-de-actividad">Que te gusta hacer</label><br>
+            <select name="tipo-de-actividad" id="tipo-de-actividad"><br><br>
+                <option>Montañas</option>
+                <option>Ruta</option>
+                <option>City Turismo</option>
+                <option>Rural Bike</option>
+                <option>Entrenamiento</option>
+            </select><br><br>
+
+            <label for="comentario">Comentanos que tipo de salidas disfrutas y tus dias y horarios para salir</label><br>
+            <textarea name="comentario" id="comentario" cols="70%" rows="20%"></textarea><br><br>
+            
+            <button type="submit">Enviar</button><br>
+        </form>
+    </section>
+<hr>
+    <div class="final-formulario">
+        <h2 id="final-formulario">Gracias por compartir con nosotros, estaremos en contacto</h2>
+    </div>
+<hr>
+    <footer>
+        <div class="pie">
+            <p>&copy; Amigos en pedales 2023</p>
+        </div>
+    </footer>
+
 </body>
 </html>
