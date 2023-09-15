@@ -209,6 +209,8 @@ mobile first y ahora se desarrolla la version pantalla grande*/
         height: 10vh;
         position: fixed;
         width: 100%;
+        margin: 0;
+
     }
     .contenedor2{
         display: flex;
